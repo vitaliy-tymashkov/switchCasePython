@@ -1,0 +1,15 @@
+def east(): return "East"
+def west(): return "West"
+def north(): return "North"
+def south(): return "South"
+
+
+# map the inputs to the function blocks
+switch_case = {
+          1 : east,
+          2 : west,
+          3 : north,
+          4 : south
+         }
+
+print(switch_case[2]())
